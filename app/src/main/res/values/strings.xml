@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Part1Lesson1</string>
+    <string name="myText">Hello World!</string>
+    <string name="any_text">Any text</string>
+    <string name="button">Button</string>
+    <string name="Sw">Переключатель</string>
+    <string name="textViev2">Добро пожаловать!</string>
+    <string name="My_name">Сергей</string>
+    <string name="Texy_phone">555555</string>
+    <string name="Nunber">1</string>
+    <string name="Text_password">*****</string>
+    <string name="Text_Email">lobster@mail.ru</string>
+</resources>
