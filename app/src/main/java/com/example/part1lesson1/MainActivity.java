@@ -10,7 +10,7 @@ import android.widget.EditText;
 import android.widget.Switch;
 import android.widget.TextView;
 import android.widget.ToggleButton;
-
+// проблема с эмуляцией не запускаются девайсы не могу посмотеть приложение
 public class MainActivity extends AppCompatActivity {
     private TextView textView;
     private EditText editText;
