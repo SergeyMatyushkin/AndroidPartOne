@@ -1,0 +1,37 @@
+package com.example.part1lesson1;
+
+import android.os.Bundle;
+import android.widget.Button;
+import android.widget.CalendarView;
+import android.widget.CheckBox;
+import android.widget.EditText;
+import android.widget.Switch;
+import android.widget.TextView;
+import android.widget.ToggleButton;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+public class NewMaket extends AppCompatActivity {
+    private TextView textView;
+    private EditText editText;
+    private CalendarView calendarView;
+
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.new_maket);
+
+        textView = findViewById(R.id.textView2);
+        editText = findViewById(R.id.editTextTextPersonName2);
+        editText = findViewById(R.id.editTextPhone);
+        editText = findViewById(R.id.editTextNumber);
+        editText = findViewById(R.id.editTextTextPassword);
+        editText = findViewById(R.id.editTextTextEmailAddress);
+        calendarView = findViewById(R.id.calendarView);
+
+
+    }
+
+
+}
