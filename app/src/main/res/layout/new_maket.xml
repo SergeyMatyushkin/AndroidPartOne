@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
 
 
     <TextView
@@ -24,10 +25,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
+        android:inputType="phone"
         android:text="@string/Texy_phone"
-        android:textColor="@color/purple_200"
 
-        android:inputType="phone" />
+        android:textColor="@color/purple_200" />
 
     <EditText
         android:id="@+id/editTextNumber"
@@ -35,7 +36,7 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="number"
-        android:text="@string/Nunber"/>
+        android:text="@string/Nunber" />
 
     <EditText
         android:id="@+id/editTextTextPassword"
@@ -52,7 +53,7 @@
         android:ems="10"
         android:inputType="textEmailAddress"
         android:text="@string/Text_Email"
-        android:textColor="@color/teal_200"/>
+        android:textColor="@color/teal_200" />
 
     <CalendarView
         android:id="@+id/calendarView"
