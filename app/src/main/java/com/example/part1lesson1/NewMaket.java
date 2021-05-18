@@ -14,28 +14,14 @@ import androidx.appcompat.app.AppCompatActivity;
 public class NewMaket extends AppCompatActivity {
     private TextView textView;
     private EditText editText;
-    private Button button;
-    private Switch aSwitch;
-    private CheckBox checkBox;
-    private ToggleButton toggleButton;
     private CalendarView calendarView;
-
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.new_maket);
-        initViews();
-    }
 
-    private void initViews() {
-        textView = findViewById(R.id.TextView1);
-        editText = findViewById(R.id.editTextTextPersonName);
-        button = findViewById(R.id.button);
-        aSwitch = findViewById(R.id.switch1);
-        checkBox = findViewById(R.id.checkBox);
-        toggleButton = findViewById(R.id.toggleButton);
         textView = findViewById(R.id.textView2);
         editText = findViewById(R.id.editTextTextPersonName2);
         editText = findViewById(R.id.editTextPhone);
@@ -43,12 +29,6 @@ public class NewMaket extends AppCompatActivity {
         editText = findViewById(R.id.editTextTextPassword);
         editText = findViewById(R.id.editTextTextEmailAddress);
         calendarView = findViewById(R.id.calendarView);
-
-
-
-
-
-
 
 
     }
